@@ -1,6 +1,5 @@
-# TensorFlow.js Example: Train LSTM to Generate Text
-
-[See this example live!](https://storage.googleapis.com/tfjs-examples/lstm-text-generation/dist/index.html)
+# Yeezy Taught M
+Train LSTM to Generate Text
 
 ## Overview
 
