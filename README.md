@@ -3,9 +3,9 @@ Train a LSTM model to **generate random text** based on the patterns in a text c
 
 As Kanye West said:
 
-> Lack of visual empathy 
+> Lack of visual empathy,
 
-> equates the meaning of L-O-V-E.
+> Equates the meaning of L-O-V-E.
 
 ## Overview
 The LSTM model operates at the **character level**. It takes a tensor of
