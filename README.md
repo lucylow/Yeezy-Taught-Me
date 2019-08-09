@@ -7,6 +7,10 @@ As Kanye West said:
 
 > Equates the meaning of L-O-V-E.
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=6mp72xUirfs
+" target="_blank"><img src="http://img.youtube.com/vi/6mp72xUirfs/0.jpg" 
+alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
+
 ## Overview
 The LSTM model operates at the **character level**. It takes a tensor of
 shape `[numExamples, sampleLen, charSetSize]` as the input. 
