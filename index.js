@@ -15,17 +15,6 @@
  * =============================================================================
  */
 
-/**
- * TensorFlow.js Example: LSTM Text Generation.
- *
- * Inspiration comes from:
- *
- * -
- * https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py
- * - Andrej Karpathy. "The Unreasonable Effectiveness of Recurrent Neural
- * Networks" http://karpathy.github.io/2015/05/21/rnn-effectiveness/
- */
-
 import * as tf from '@tensorflow/tfjs';
 
 import {TextData} from './data';
