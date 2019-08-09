@@ -9,6 +9,15 @@ As Kanye West said:
 " target="_blank"><img src="http://img.youtube.com/vi/6mp72xUirfs/0.jpg" 
 alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
 
+## LSTMs Application in Real World
+* LSTM commonly used in industry by Google, Apple, Microsoft and Amazon 
+  * time series prediction 
+  * speech recognition 
+  * music/rhythm learning 
+  * handwriting recognition 
+  * sign language translation 
+* Bloomberg Business Week: “LSTM is arguably the most commercial AI achievement, used for everything from predicting diseases to composing music."
+
 ---
 ## Deep Learning // Artifical Neural Networks
 * Recurrent Neural Network [RNN] 
@@ -43,22 +52,21 @@ The LSTM model operates at the **character level**. It takes a tensor of
 shape `[numExamples, sampleLen, charSetSize]` as the input. The input text data is from "./data" file.
 
 The input is a **one-hot encoding** of sequences of `sampleLen` characters. The characters
-belong to a set of `charSetSize` unique characters. 
-With the input, the model outputs a tensor of shape `[numExamples, charSetSize]`, which represents the model's predicted **probabilites of the character** that follows the input sequence.
+belong to a set of `charSetSize` unique characters. With the input, the model outputs a tensor of shape `[numExamples, charSetSize]`, which represents the model's predicted **probabilites of the character** that follows the input sequence.
 
 This process is repeated in order to **generate a character sequence of a given length**. 
 The randomness (diversity) is controlled by a temperature parameter.
 
 
-## Technical Yeezy Taught Me 
-
-Requires
+Requires:
 * 'Name of the text dataset’
 * Path to the trained next-char prediction model saved on disk 
 * Length of the text to generate 
 * Temperature value to use of text generation. DISPLAY_TEMPERATURES = [0, 0.25, 0.5, 0.75] Higher values == More random-looking generation results 
 * GPU - CUDA GPU for training 
 * Step length - how many characters to skip between one example to next 
+
+## Technical Yeezy Taught Me 
 
 ![Picture of program](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/YeezyTaughtMeWell.png)
 
@@ -74,14 +82,6 @@ yarn && yarn watch
 ---
 
 
-## LSTMs Application in Real World
-* LSTM commonly used in industry by Google, Apple, Microsoft and Amazon 
-  * time series prediction 
-  * speech recognition 
-  * music/rhythm learning 
-  * handwriting recognition 
-  * sign language translation 
-* Bloomberg Business Week: “LSTM is arguably the most commercial AI achievement, used for everything from predicting diseases to composing music."
 
 ## Refernces 
 * Kera. LSTM Text Generation Example. https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py
