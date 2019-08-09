@@ -1,15 +1,15 @@
 # Yeezy Taught Me
-Train a LSTM model to **generate random text** based on the patterns in a text corpus.
+Train LSTM model to **generate random text** based on patterns in a given text corpus.
 
 As Kanye West said:
 
-> Lack of visual empathy,
-
-> Equates the meaning of L-O-V-E.
+> Lack of visual empathy, equates the meaning of L-O-V-E.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=6mp72xUirfs
 " target="_blank"><img src="http://img.youtube.com/vi/6mp72xUirfs/0.jpg" 
 alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
+
+---
 
 ## Overview
 The LSTM model operates at the **character level**. It takes a tensor of
@@ -26,9 +26,7 @@ The randomness (diversity) is controlled by a temperature parameter.
 
 ![Picture of program](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/YeezyTaughtMeWell.png)
 
-
-Inspired by the LSTM text generation example from Keras:
-https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py
+---
 
 ## Usage
 
@@ -37,3 +35,9 @@ The web demo supports model training and text generation. To launch the demo, do
 ```sh
 yarn && yarn watch
 ```
+---
+
+## Refernces 
+* Kera's LSTM Text Generation Example : https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py
+* Andrej Karpathy's "The Unreasonable Effectiveness of Recurrent Neural Networks" http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+
