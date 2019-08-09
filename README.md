@@ -23,7 +23,11 @@ model's predicted **probabilites of the character** that follows the input seque
 This process is repeated in order to generate a character sequence of a given length. 
 The randomness (diversity) is controlled by a temperature parameter.
 
-This example is inspired by the LSTM text generation example from Keras:
+
+![Picture of program](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/YeezyTaughtMeWell.png)
+
+
+Inspired by the LSTM text generation example from Keras:
 https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py
 
 ## Usage
