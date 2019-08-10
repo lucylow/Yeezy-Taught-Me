@@ -24,7 +24,7 @@ alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
 ## Deep Learning // Artifical Neural Networks
 * Recurrent Neural Network [RNN]:
   * Used for classifying, processing, and **making predictions based on time-series** with time, sequence, or anything with a temporal dimension.
-  * The decision a recurrent net reached at **time step t-1** affects the decision it will reach one moment later at **time step t**.
+  * The decision a recurrent net reached at **time step t - 1** affects the decision it will reach one moment later at **time step t**.
   
 * Long Short Term Memory [LSTM]:
   * LSTM + Vanilla RNN solve the **vanishing gradient problem** since  units allow gradient flows to be unchanged
