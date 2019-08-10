@@ -16,15 +16,15 @@ alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
   * Music/rhythm learning 
   * Handwriting recognition 
   * Sign language translation 
-* Bloomberg Business Week: “LSTM is arguably the most commercial AI achievement, used for everything from predicting diseases to composing music."
+* Bloomberg Business Week: **“LSTM is arguably the most commercial AI achievement, used for everything from predicting diseases to composing music."**
 
 ---
 ## Deep Learning // Artifical Neural Networks
-* Recurrent Neural Network [RNN] 
+* Recurrent Neural Network [RNN]:
   * Used for classifying, processing, and **making predictions based on time-series** with time, sequence, or anything with a temporal dimension.
   * The decision a recurrent net reached at **time step t-1** affects the decision it will reach one moment later at **time step t**.
   
-* Long Short Term Memory [LSTM]
+* Long Short Term Memory [LSTM]:
   * LSTM + vanilla RNN solve the **vanishing gradient problem** since LSTM units allow gradient flows to be unchanged
   * LSTM allow neural network to operate on different scales of time at once and information can be stored in, written to, or read from a cell.
   * Gates are analog with **element-wise multiplication by sigmoids**, which are all in the **range of 0-1**. Refer to diagram below.
@@ -47,7 +47,7 @@ LSTM Unit Map:
 (Image of LSTM cells where information can be stored in, written to, or read.)
 
 
-## Technical Text Generation 
+## Technical Text Generation Model
 
 The LSTM model operates at the **character level**. It takes a tensor of shape `[numExamples, sampleLen, charSetSize]` as the input. The input text data is from "./data" file.
 
@@ -55,7 +55,8 @@ The input is a one-hot encoding of sequences of `sampleLen` characters. The char
 
 This process is repeated in order to **generate a character sequence** of a given length hence the "text generation" part of the project. The randomness (diversity) is controlled by a temperature parameter.
 
-Technical Parameters:
+## Technical Text Parameters:
+
 * 'Name of the text dataset’ for input file
 * Path to the trained next-char prediction model saved on disk 
 * Length of the text to generate 
@@ -67,7 +68,7 @@ Technical Parameters:
 
 ![Picture of program](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/YeezyTaughtMeWell.png)
 
-(Image of the website)
+(Image of the web demo at https://lucylow.github.io/Yeezy-Taught-Me/)
 
 
 ## Usage
