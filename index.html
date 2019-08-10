@@ -54,11 +54,11 @@ limitations under the License.
 
   <section class='title-area'>
     <h1> Yeezy Taught Me Text Generation:</h1>
-    <p class='subtitle'>Train a LSTM (Long Short Term Memory) model to generate text with TensorFlow.js. </p>
+    <p class='subtitle'>Train a LSTM (Long Short Term Memory) model to generate text. </p>
   </section>
 
   <section>
-    <p class='section-head'>Description</p>
+    <p class='section-head'>DESCRIPTION</p>
     <p>
       This example allows you to train a model to generate text in the style of some existing source text.
       The model is designed to predict the <em>next character</em> in a text given some preceding string of characters.
@@ -77,7 +77,7 @@ alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
   </section>
 
   <section>
-    <p class='section-head'>Status</p>
+    <p class='section-head'>STATUS</p>
     <div id="app-status">
       Please select a text data source or enter your custom text in the text box below and click <em>"Load source data"</em>.
     </div>
@@ -93,7 +93,7 @@ alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
   </section>
 
   <section>
-    <p class='section-head'>Model Loading/Creation</p>
+    <p class='section-head'>YEEZY'S MODEL LOADING</p>
     <div>
       <p>
         <em>
@@ -113,11 +113,10 @@ alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
   </section>
 
   <section>
-    <p class='section-head'>Yeezy's Model Training</p>
+    <p class='section-head'>YEEZY'S MODEL TRAINING</p>
     <p>
       It can take a while to generate an effective model. Try increasing the number of <em>epochs</em> to improve the
-      results, we have found that about <strong>50-100 epochs</strong> are needed to start generating reasonable
-      text.
+      results.
     </p>
     <div class="with-cols">
       <div>
@@ -151,11 +150,11 @@ alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
   </section>
 
   <section>
-    <p class='section-head'>Yeezy's Text Generation Parameters</p>
+    <p class='section-head'>YEEZY'S TEXT GENERATION PARAMETERS</p>
     <p>
       To generate text the model needs to have some number of preceding characters from which it continues,
       we call these characters the <em>seed text</em>. You can type one in, or we will extract a random substring from
-      the input text to be the seed text. Note that the seed text must be at least 40 charachters long.
+      the input text to be the seed text. Note that the <strong> seed text must be at least 40 characters long </strong>.
     </p>
     <div>
       <span class="input-title">Length of generated text:</span>
@@ -173,14 +172,14 @@ alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
     </div>
 
     <div>
-      <span class="input-title">Seed text:</span>
+      <span class="input-title">Yeezy's Seed text:</span>
       <textarea class="monospace" id="seed-text" value="" rows="4"></textarea>
     </div>
 
-    <p class='section-head'>Model Output</p>
+    <p class='section-head'>YEEZY'S MODEL OUTPUT</p>
 
     <div>
-      <span class="input-title">Generated text:</span>
+      <span class="input-title">Generated Yeezy taught-me-well text:</span>
       <textarea class="monospace" id="generated-text" readonly="true" value="" rows="10"></textarea>
     </div>
 
