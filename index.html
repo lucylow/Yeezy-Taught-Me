@@ -79,13 +79,11 @@ limitations under the License.
 
   
   
-  
   <section>
     <p class='section-head'><strong>DESCRIPTION</strong></p>
     <p>
-      This example allows you to train a model to generate text in the style of some existing source text.
-      The model is designed to predict the <em>next character</em> in a text given some preceding string of characters.
-      Doing this repetedly builds up a text, character by character. 
+      Yeezy Taught Me Text Generation is a neural network trained next-character prediction model to generate text from user input text corpus. The model is designed to predict the <em>next character</em> in a text given some preceding string of characters.
+      Doing this repeatedly builds up a text, character by character. 
     </p>
 
     
@@ -185,7 +183,7 @@ alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
     <p>
       To generate text the model needs to have some number of preceding characters from which it continues,
       we call these characters the <em>seed text</em>. You can type one in, or we will extract a random substring from
-      the input text to be the seed text. Note that the <strong> seed text must be at least 40 characters long </strong>.
+      the input text to be the seed text. Note that the <strong> seed text must be at least 40 characters long</strong>.
     </p>
     <div>
       <span class="input-title">Length of generated text:</span>
@@ -213,9 +211,18 @@ alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
     <p class='section-head'><strong>YEEZY'S MODEL OUTPUT</strong></p>
 
     <div>
-      <span class="input-title">Yeezy taught-me-well :) Generated text:</span>
+      <span class="input-title"><Strong>Yeezy taught-me-well. </strong> Generated text:</span>
       <textarea class="monospace" id="generated-text" readonly="true" value="" rows="10"></textarea>
     </div>
+
+
+    <p class='section-head'><strong>SOURCE CODE</strong></p>
+
+    <div>
+      <a href="https://github.com/lucylow/Yeezy-Taught-Me">Source code to this project on Github here.</a>
+
+    </div>
+
 
   </section>
 
