@@ -1,23 +1,4 @@
-/**
- * @license
- * Copyright 2019 Google LLC. All Rights Reserved.
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- * =============================================================================
- */
-
-/**
- * Training of a next-char prediction model.
- */
+// Training of Yeezy Taught Me next-char prediction model.
 
 import * as fs from 'fs';
 import * as os from 'os';
@@ -30,7 +11,7 @@ import {createModel, compileModel, fitModel, generateText} from './model';
 
 function parseArgs() {
   const parser = argparse.ArgumentParser({
-    description: 'Train an lstm-text-generation model.'
+    description: 'Train Yeezy Taught Me text generation model.'
   });
   parser.addArgument('textDatasetName', {
     type: 'string',
@@ -50,7 +31,7 @@ function parseArgs() {
   parser.addArgument('--sampleStep', {
     type: 'int',
     defaultValue: 3,
-    help: 'Step length: how many characters to skip between one example ' +
+    help: 'Step length: How many characters to skip between one example ' +
     'extracted from the text data to the next.'
   });
   parser.addArgument('--learningRate', {
