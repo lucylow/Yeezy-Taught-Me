@@ -27,8 +27,8 @@ alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
   * The decision a recurrent net reached at **time step t-1** affects the decision it will reach one moment later at **time step t**.
   
 * Long Short Term Memory [LSTM]:
-  * LSTM + vanilla RNN solve the **vanishing gradient problem** since LSTM units allow gradient flows to be unchanged
-  * LSTM allow neural network to operate on different scales of time at once and information can be stored in, written to, or read from a cell.
+  * LSTM + Vanilla RNN solve the **vanishing gradient problem** since  units allow gradient flows to be unchanged
+  * Neural network operates on different scales of time at once and information can be stored in, written to, or read from a cell.
   * Gates are analog with **element-wise multiplication by sigmoids**, which are all in the **range of 0-1**. Refer to diagram below.
 
 ![RNN and LSTM models](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/RNN%20vs%20LSTM.png)
