@@ -55,7 +55,7 @@ The input is a one-hot encoding of sequences of `sampleLen` characters. The char
 
 This process is repeated in order to **generate a character sequence** of a given length hence the "text generation" part of the project. The randomness (diversity) is controlled by a temperature parameter.
 
-## Technical Text Parameters:
+## Technical Text Parameters
 
 * 'Name of the text dataset’ for input file
 * Path to the trained next-char prediction model saved on disk 
