@@ -10,12 +10,14 @@ As Kanye West said:
 alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
 
 ## LSTMs Application in Real World
+
 * LSTM commonly used in industry by companies ike Google, Apple, Microsoft, and Amazon: 
   * Time series prediction 
   * Speech recognition 
   * Music/rhythm learning 
   * Handwriting recognition 
   * Sign language translation 
+  
 * Bloomberg Business Week: **“LSTM is arguably the most commercial AI achievement, used for everything from predicting diseases to composing music."**
 
 ---
@@ -60,7 +62,7 @@ This process is repeated in order to **generate a character sequence** of a give
 * 'Name of the text dataset’ for input file
 * Path to the trained next-char prediction model saved on disk 
 * Length of the text to generate 
-* Temperature value to use of text generation. DISPLAY_TEMPERATURES = [0, 0.25, 0.5, 0.75] Higher values lead to more random-looking generation results 
+* Temperature value to use of text generation. Higher values for more random-looking results 
 * CUDA GPU for training 
 * Step length for how many characters to skip between one example to next 
 
