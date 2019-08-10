@@ -29,7 +29,7 @@ alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
 * Long Short Term Memory [LSTM]:
   * LSTM + Vanilla RNN solve the **vanishing gradient problem** since  units allow gradient flows to be unchanged
   * Neural network operates on different scales of time at once and information can be stored in, written to, or read from a cell.
-  * Gates are analog with **element-wise multiplication by sigmoids**, which are all in the **range of 0-1**. Refer to diagram below.
+  * Gates are analog with **element-wise multiplication by sigmoids**, which are all in the **range of 0-1**. Refer to diagram under "Technical LSTM Model".
 
 ![RNN and LSTM models](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/RNN%20vs%20LSTM.png)
 
