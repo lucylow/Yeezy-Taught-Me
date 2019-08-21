@@ -1,5 +1,5 @@
 # Yeezy Taught Me
-Train LSTM model to **generate random text** based on patterns in a given text corpus.
+Train Long Short Term Memory (LSTM) model to **generate random text** based on patterns in a given text corpus.
 
 As Kanye West said:
 
@@ -13,7 +13,7 @@ alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
 ---
 
 
-## LSTMs Application in Real World
+## Long Short Term Memory (LSTM) Application in Real World
 
 * LSTM commonly used in industry by companies ike Google, Apple, Microsoft, and Amazon: 
   * Time series prediction 
