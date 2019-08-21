@@ -9,6 +9,10 @@ As Kanye West said:
 " target="_blank"><img src="http://img.youtube.com/vi/6mp72xUirfs/0.jpg" 
 alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
 
+
+---
+
+
 ## LSTMs Application in Real World
 
 * LSTM commonly used in industry by companies ike Google, Apple, Microsoft, and Amazon: 
@@ -20,7 +24,10 @@ alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
   
 * Bloomberg Business Week: **“LSTM is arguably the most commercial AI achievement, used for everything from predicting diseases to composing music."**
 
+
 ---
+
+
 ## Deep Learning // Artifical Neural Networks
 * Recurrent Neural Network [RNN]:
   * Used for classifying, processing, and **making predictions based on time-series** with time, sequence, or anything with a temporal dimension.
@@ -34,6 +41,10 @@ alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
 ![RNN and LSTM models](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/RNN%20vs%20LSTM.png)
 
 (Image of RNN and LSTM models)
+
+
+---
+
 
 ## Technical LSTM Model
 
@@ -49,6 +60,9 @@ LSTM Unit Map:
 (Image of LSTM cells where information can be stored in, written to, or read.)
 
 
+---
+
+
 ## Technical Text Generation Model
 
 The LSTM model operates at the **character level**. It takes a tensor of shape `[numExamples, sampleLen, charSetSize]` as the input. The input text data is from "./data" file.
@@ -56,6 +70,10 @@ The LSTM model operates at the **character level**. It takes a tensor of shape `
 The input is a one-hot encoding of sequences of `sampleLen` characters. The characters belong to a set of `charSetSize` unique characters. With the input, the model outputs a tensor of shape `[numExamples, charSetSize]`, which represents the model's predicted **probabilites of the character that follows the input sequence**.
 
 This process is repeated in order to **generate a character sequence** of a given length hence the "text generation" part of the project. The randomness (diversity) is controlled by a temperature parameter.
+
+
+---
+
 
 ## Technical Text Parameters
 
@@ -66,11 +84,19 @@ This process is repeated in order to **generate a character sequence** of a give
 * CUDA GPU for training 
 * Step length for how many characters to skip between one example to next 
 
+
+----
+
+
+
 ## Technical Yeezy Taught Me 
 
 ![Picture of program](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/YeezyTaughtMeWell.png)
 
 (Image of the web demo at https://lucylow.github.io/Yeezy-Taught-Me/)
+
+
+---
 
 
 ## Usage
@@ -81,6 +107,8 @@ The web demo supports model training and text generation. To launch the demo, do
 yarn && yarn watch
 ```
 
+
+---
 
 ## Refernces 
 * Kera. LSTM Text Generation Example. https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py
