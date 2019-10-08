@@ -8,7 +8,7 @@ As Kanye West said:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=6mp72xUirfs
 " target="_blank"><img src="http://img.youtube.com/vi/6mp72xUirfs/0.jpg" 
 alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
-
+*Video. Kanye West music video.*
 
 ---
 
@@ -31,7 +31,7 @@ Web application for artifical intelligence model training and text generation:
 
 ![Picture of program](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/YeezyTaughtMeWell.png)
 
-(Image of the web demo at https://lucylow.github.io/Yeezy-Taught-Me/)
+*Image. Screenshot of the web demo at https://lucylow.github.io/Yeezy-Taught-Me/*
 
 ---
 
@@ -48,7 +48,7 @@ Web application for artifical intelligence model training and text generation:
 
 ![RNN and LSTM models](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/RNN%20vs%20LSTM.png)
 
-(Image of RNN and LSTM models)
+*Image. Explainations of how the RNN and LSTM models work*
 
 
 ---
@@ -65,7 +65,7 @@ LSTM Unit Map:
 ![LSTM cells from https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/recurrent_neural_networks.html
 ](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/LSTM%20cell%20and%20gates.png)
 
-(Image of LSTM cells where information can be stored in, written to, or read.)
+*Image. LSTM cells where information can be stored in, written to, or read.*
 
 
 ---
