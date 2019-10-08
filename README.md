@@ -46,7 +46,7 @@ Web application for artifical intelligence model training and text generation:
 
 ![RNN and LSTM models](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/RNN%20vs%20LSTM.png)
 
-*Image. Explainations of how the RNN and LSTM models work*
+*Image. Explainations of how the RNN and LSTM models work.*
 
 
 ---
