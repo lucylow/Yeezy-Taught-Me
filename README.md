@@ -1,13 +1,11 @@
 # Yeezy Taught Me
-Train Long Short Term Memory (LSTM) model to **generate random text** based on patterns in a given text corpus.
-
-As Kanye West said:
-
+Train Long Short Term Memory (LSTM) model to **generate random text** based on patterns in a given text corpus. As Kanye West said:
 > Lack of visual empathy, equates the meaning of L-O-V-E.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=6mp72xUirfs
 " target="_blank"><img src="http://img.youtube.com/vi/6mp72xUirfs/0.jpg" 
 alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
+
 *Video. Kanye West music video.*
 
 ---
