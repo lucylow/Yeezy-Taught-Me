@@ -18,11 +18,11 @@ Web application for Machine Learning Training next character predictions using L
 ## Table_of_Contents
 
 * [Motivation](#Motivation)
-* [Yeezy_Taught_Me_Application](#Yeezy Taught Me Application)
-* [Artifical_Neural_Network](#Artifical Neural Network)
-* [LSTM_Model](#LSTM Model)
-* [Text_Generation_Model](#Text Generation Model) 
-* [Text_Parameters](#Text Parameters)
+* [Yeezy_Taught_Me_Application](#Yeezy_Taught_Me_Application)
+* [Artifical_Neural_Network](#Artifical_Neural_Network)
+* [LSTM_Model](#LSTM_Model)
+* [Text_Generation_Model](#Text_Generation_Model) 
+* [Text_Parameters](#Text_Parameters)
 * [Usage](#Usage)
 * [Conclusion](#Conclusion)
 * [References](#References) 
