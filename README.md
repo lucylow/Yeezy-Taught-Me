@@ -2,7 +2,7 @@
 
 <div>
   
-  [![Status](https://img.shields.io/badge/status-active-success.svg)]()
+  [![Status](https://img.shields.io/badge/status-work--in--progress-success.svg)]()
   [![GitHub Issues](https://img.shields.io/github/issues/lucylow/Yeezy-Taught-Me.svg)](https://github.com/lucylow/Yeezy-Taught-Me/issues)
   [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lucylow/Yeezy-Taught-Me.svg)](https://github.com/lucylow/Yeezy-Taught-Me/pulls)
   [![License](https://img.shields.io/aur/license/android-studio.svg)]()
