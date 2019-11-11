@@ -42,11 +42,11 @@ Web application for artifical intelligence model training and text generation:
 * Long Short Term Memory [LSTM]:
   * LSTM + Vanilla RNN solve the **vanishing gradient problem** since  units allow gradient flows to be unchanged
   * Neural network operates on different scales of time at once and information can be stored in, written to, or read from a cell.
-  * Gates are analog with **element-wise multiplication by sigmoids**, which are all in the **range of 0-1**. Refer to diagram under "Technical LSTM Model".
+  * Gates are analog with **element-wise multiplication by sigmoids**, which are all in the **range of 0-1**. Refer to diagram under " LSTM Model".
 
 ![RNN and LSTM models](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/RNN%20vs%20LSTM.png)
 
-*Image. Explainations of how the RNN and LSTM models work.*
+*Image. Explanations of how the RNN and LSTM models work.*
 
 
 ---
@@ -107,6 +107,7 @@ yarn && yarn watch
 
 ## Refernces 
 * Kera. LSTM Text Generation Example. https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py
+* Mozilla's IndexDB. JavaScript-based object-oriented database documentation. https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
 * Andrej Karpathy. "The Unreasonable Effectiveness of Recurrent Neural Networks" http://karpathy.github.io/2015/05/21/rnn-effectiveness/
 * Sepp Hochreiter; Jürgen Schmidhuber "Long short-term memory". Neural Computation. doi:10.1162/neco.1997.9.8.1735. 
 
