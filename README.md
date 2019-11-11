@@ -14,6 +14,21 @@ Web application for Machine Learning Training next character predictions using L
 > Lack of visual empathy, equates the meaning of L-O-V-E.
 ---
 
+
+## Table_of_Contents &#x1F49C;
+
+* [Motivation](#Motivation-)
+* [Yeezy Taught Me Application](#Yeezy Taught Me Application-)
+* [Artifical Neural Network](#Artifical Neural Network-)
+* [LSTM Model](#LSTM Model-)
+* [Text Generation Model](#Text Generation Model-) 
+* [Text Parameters](#Text Parameters-)
+* [Usage](#Usage-)
+* [Conclusion](#Conclusion-)
+* [References](#references-) 
+
+---
+
 ## Motivation
 
 * LSTM commonly used in industry by companies ike Google, Apple, Microsoft, and Amazon: 
@@ -109,7 +124,7 @@ yarn && yarn watch
 
 ---
 
-## Refernces 
+## References 
 * Kera. LSTM Text Generation Example. https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py
 * Mozilla's IndexDB. JavaScript-based object-oriented database documentation. https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
 * Andrej Karpathy. "The Unreasonable Effectiveness of Recurrent Neural Networks" http://karpathy.github.io/2015/05/21/rnn-effectiveness/
