@@ -1,0 +1,215 @@
+<!doctype html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../shared/tfjs-examples.css" />
+</head>
+
+<style>
+  .monospace {
+    font-family: monospace;
+    padding: 50px;
+  }
+
+  .input-title {
+    display: inline-block;
+    width: 12em;
+  }
+
+  select {
+    font-size: 14pt;
+  }
+
+  button {
+    margin: 3px;
+  }
+
+  input:disabled {
+    background: #eeeeee;
+  }
+
+  textarea {
+    width: 98%;
+  }
+  
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body class='tfjs-example-container'>
+
+  <section class='title-area'>
+    <h1><strong> Yeezy Taught Me Text Generation:</strong></h1>
+    <p class='subtitle'>Train a LSTM (Long Short Term Memory) model to generate text. </p>
+  </section>
+
+  
+  
+  <section>
+    <p class='section-head'><strong>DESCRIPTION</strong></p>
+    <p>
+      Yeezy Taught Me Text Generation.
+      A neural network trained next-character prediction model. The model is designed to predict the <em>next character</em> in a text given some preceding string of characters.
+      Doing this repeatedly builds up a text, character by character. 
+    </p>
+
+    
+    <p>
+      As Kanye West said "Lack of visual empathy, equates the meaning of L-O-V-E."
+    </p>
+    
+    <a href="http://www.youtube.com/watch?feature=player_embedded&v=6mp72xUirfs
+" target="_blank"><img src="http://img.youtube.com/vi/6mp72xUirfs/0.jpg" 
+alt="Yeezy taught me well" width="240" height="180" border="10" /></a>
+  </section>
+
+  
+  
+  <section>
+    <p class='section-head'> <strong>YEEZY'S STATUS </strong> </p>
+    <div id="app-status">
+      Please select a text data source or enter your custom text in the text box below and click <em>"Load source data"</em>.
+    </div>
+  </section>
+
+ 
+  <section>
+    <p class='section-head'><strong>YEEZY'S SOURCE DATA</strong></p>
+    <select id="text-data-select"></select>
+    <button id="load-text-data">Load source data</button>
+    <div>
+      <textarea class="monospace" id="test-text" value="" rows="10"></textarea>
+    </div>
+  </section>
+
+
+  
+  <section>
+    <p class='section-head'><strong>YEEZY'S MODEL LOADING</strong></p>
+    <div>
+      <p>
+        <em>
+          Model saved in IndexedDB:
+          <span id="model-available">Load text data first.</span>
+        </em>
+      </p>
+
+      <div>
+        <span class="input-title">LSTM layer size(s) (e.g., 128 or 100,50):</span>
+        <input id="lstm-layer-sizes" value="128"></input>
+
+        <button id="create-or-load-model" disabled="true">Create or load model</button>
+        <button id="delete-model" disabled="true">Delete existing model</button>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <p class='section-head'><strong>YEEZY'S MODEL TRAINING</strong></p>
+    <p>
+      It can take a while to generate an effective model. Try increasing the number of <em>epochs</em> to improve the
+      results.
+    </p>
+    <div class="with-cols">
+      <div>
+        <div>
+          <span class="input-title">Number of Epochs:</span>
+          <input id="epochs" value="5"></input>
+        </div>
+        <div>
+          <span class="input-title">Examples per epoch:</span>
+          <input id="examples-per-epoch" value="2048"></input>
+        </div>
+        <div>
+          <span class="input-title">Batch size:</span>
+          <input id="batch-size" value="128"></input>
+        </div>
+        <div>
+          <span class="input-title">Validation spilt:</span>
+          <input id="validation-split" value="0.0625"></input>
+        </div>
+        <div>
+          <span class="input-title">Learning rate:</span>
+          <input id="learning-rate" value="1e-2"></input>
+        </div>
+        <div>
+          <button id="train-model" disabled="true">Train model</button>
+        </div>
+      </div>
+      <div class="canvases" id="batch-loss-canvas"></div>
+      <div class="canvases" id="epoch-loss-canvas"></div>
+    </div>
+  </section>
+
+
+  
+
+  <section>
+    <p class='section-head'><strong>YEEZY'S TEXT GENERATION PARAMETERS</strong></p>
+    <p>
+      To generate text the model needs to have some number of preceding characters from which it continues,
+      we call these characters the <em>seed text</em>. You can type one in, or we will extract a random substring from
+      the input text to be the seed text. Note that the <strong> seed text must be at least 40 characters long</strong>.
+    </p>
+    <div>
+      <span class="input-title">Length of generated text:</span>
+      <input id="generate-length" value="200"></input>
+    </div>
+
+    <div>
+      <span class="input-title">Generation temperature:</span>
+      <input id="temperature" value="0.75"></input>
+    </div>
+
+    <div>
+      <button id="generate-text" disabled="true">Generate text</button>
+      <span id="text-generation-status"></span>
+    </div>
+
+    <div>
+      <span class="input-title">Seed text:</span>
+      <textarea class="monospace" id="seed-text" value="" rows="4"></textarea>
+    </div>
+
+
+
+
+    <p class='section-head'><strong>YEEZY'S MODEL OUTPUT</strong></p>
+
+    <div>
+      <span class="input-title"><Strong>Yeezy taught-me-well. </strong> Generated text:</span>
+      <textarea class="monospace" id="generated-text" readonly="true" value="" rows="10"></textarea>
+    </div>
+
+
+    <p class='section-head'><strong>SOURCE CODE</strong></p>
+
+    <div>
+      <a href="https://github.com/lucylow/Yeezy-Taught-Me">Source code to this project on Github here.</a>
+
+    </div>
+
+
+  </section>
+
+</body>
+
+<script src="index.js"></script>
