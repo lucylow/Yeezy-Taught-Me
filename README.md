@@ -59,10 +59,12 @@ RNN and LSTM and derivatives use mainly sequential processing over time
 * Recurrent Neural Network [RNN]:
   * Used for classifying, processing, and **making predictions based on time-series** with time, sequence, or anything with a temporal dimension.
   * The decision a recurrent net reached at **time step t - 1** affects the decision it will reach one moment later at **time step t**.
-  * Recommendation to run Yeezy Taught Me script on GPU, as RNNs are computationally intensive
+  * RNNs are computationally intensive - recommendation to script on GPU
+  *  they accept a fixed-sized vector as input (e.g. an image) and produce a fixed-sized vector as output (e.g. probabilities of different classes). 
+  * RNNS allow us to operate over sequences of vectors: Sequences in the input, the output, or in the most general case both.
   
 * Long Short Term Memory [LSTM]:
-  * Special kind of RNN, capable of learning long-term dependencies
+  * Special kind of RNN, capable of learning long-term dependencies that works slightly better in practice than RNN due to its more powerful update equation and backpropagation dynamics.
   * LSTM + Vanilla RNN solve the **vanishing gradient problem** since  units allow gradient flows to be unchanged
     * Vanishing Gradient Problem : Long term information has to sequentially travel through all cells before getting to the present processing cell. This means it can be easily corrupted by being multiplied many time by small numbers < 0.
   * Neural network operates on different scales of time at once and information can be stored in, written to, or read from a cell.
@@ -80,7 +82,7 @@ RNN and LSTM and derivatives use mainly sequential processing over time
 
 Written down as a set of equations, LSTMs look pretty intimidating.
 
-[equations here]
+[equations for the gates here]
 
 LSTM Unit Map:
 * Cell (value over time interval)
@@ -109,16 +111,21 @@ At least 20 epochs (20 cases of the full training set) are required before the g
 
 ---
 
-Training LSTM
+## Training LSTM
 * difficult to train because they require memory-bandwidth-bound computation
 * LSTM require 4 linear layer (MLP layer) per cell to run at and for each sequence time-step
 *
 
+---
+
+## Data for Text Generation
+
+Potential text datasets to play with here https://cs.stanford.edu/people/karpathy/char-rnn/
+If Yeezy Taught Me is run on new data, make sure corpus has at least ~100k characters. Ideally situation is ~1M characters. 
 
 
 ---
 ## Text_Parameters
-If Yeezy Taught Me is run on new data, make sure corpus has at least ~100k characters. Ideally situation is ~1M characters. 
 
 * 'Name of the text dataset’ for input file
 * Path to the trained next-char prediction model saved on disk 
@@ -147,9 +154,12 @@ has at least ~100k characters. ~1M is better.
 * Kera. LSTM Text Generation Example. https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py
 * Original LSTM paper Hochreiter & Schmidhuber (1997) http://www.bioinf.jku.at/publications/older/2604.pdf
 * Mozilla's IndexDB. JavaScript-based object-oriented database documentation. https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+* Code example python LSTM https://github.com/wojciechz/learning_to_execute
+* Oxford's Machine Learning course. Practical6 LSTM for language modelling. https://github.com/oxford-cs-ml-2015/practical6
 * Comparing the LSTM vs the Transformer model for text generation https://openai.com/blog/language-unsupervised/
 * Andrej Karpathy. "The Unreasonable Effectiveness of Recurrent Neural Networks" http://karpathy.github.io/2015/05/21/rnn-effectiveness/ also the code from https://github.com/karpathy/char-rnn
 * Sepp Hochreiter; Jürgen Schmidhuber "Long short-term memory". Neural Computation. doi:10.1162/neco.1997.9.8.1735. 
 * Grid LSTM https://arxiv.org/pdf/1507.01526v1.pdf
+* Generating Text with Recurrent Neural Networks. http://www.cs.utoronto.ca/~ilya/pubs/2011/LANG-RNN.pdf
  
 
