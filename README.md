@@ -10,7 +10,7 @@
 </div>
 
 ---
-Web application for Machine Learning Training next character predictions using Long Short Term Memory Model (LSTM) and Time Series Prediction. Train Long Short Term Memory (LSTM) model to **generate random text** based on patterns in a given text corpus. As Kanye West said:
+**Web application for Machine Learning Training next character predictions using Long Short Term Memory Model (LSTM) and Time Series Prediction. Train model to generate random text based on patterns in a given text corpus.** As Kanye West said:
 > Lack of visual empathy, equates the meaning of L-O-V-E.
 ---
 
