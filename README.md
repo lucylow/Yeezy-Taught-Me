@@ -18,11 +18,11 @@ Web application for Machine Learning Training next character predictions using L
 ## Table_of_Contents
 
 * [Motivation](#Motivation)
-* [Yeezy Taught Me Application](#Yeezy Taught Me Application)
-* [Artifical Neural Network](#Artifical Neural Network)
-* [LSTM Model](#LSTM Model)
-* [Text Generation Model](#Text Generation Model) 
-* [Text Parameters](#Text Parameters)
+* [Yeezy_Taught_Me_Application](#Yeezy Taught Me Application)
+* [Artifical_Neural_Network](#Artifical Neural Network)
+* [LSTM_Model](#LSTM Model)
+* [Text_Generation_Model](#Text Generation Model) 
+* [Text_Parameters](#Text Parameters)
 * [Usage](#Usage)
 * [Conclusion](#Conclusion)
 * [References](#References) 
@@ -42,7 +42,7 @@ Web application for Machine Learning Training next character predictions using L
 
 ---
 
-## Yeezy Taught Me Application
+## Yeezy_Taught_Me_Application
 
 Web application for artifical intelligence model training and text generation:
 
@@ -53,7 +53,7 @@ Web application for artifical intelligence model training and text generation:
 ---
 
 
-## Artifical Neural Network
+## Artifical_Neural_Network
 * Recurrent Neural Network [RNN]:
   * Used for classifying, processing, and **making predictions based on time-series** with time, sequence, or anything with a temporal dimension.
   * The decision a recurrent net reached at **time step t - 1** affects the decision it will reach one moment later at **time step t**.
@@ -71,7 +71,7 @@ Web application for artifical intelligence model training and text generation:
 ---
 
 
-## LSTM Model
+## LSTM_Model
 
 LSTM Unit Map:
 * Cell (value over time interval)
@@ -88,7 +88,7 @@ LSTM Unit Map:
 ---
 
 
-## Text Generation Model
+## Text_Generation_Model
 
 The LSTM model operates at the **character level**. It takes a tensor of shape `[numExamples, sampleLen, charSetSize]` as the input. The input text data is from "./data" file.
 
@@ -100,7 +100,7 @@ This process is repeated in order to **generate a character sequence** of a give
 ---
 
 
-## Text Parameters
+## Text_Parameters
 
 * 'Name of the text dataset’ for input file
 * Path to the trained next-char prediction model saved on disk 
