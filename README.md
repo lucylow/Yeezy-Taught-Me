@@ -148,7 +148,7 @@ has at least ~100k characters. ~1M is better.
 * Original LSTM paper Hochreiter & Schmidhuber (1997) http://www.bioinf.jku.at/publications/older/2604.pdf
 * Mozilla's IndexDB. JavaScript-based object-oriented database documentation. https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
 * Comparing the LSTM vs the Transformer model for text generation https://openai.com/blog/language-unsupervised/
-* Andrej Karpathy. "The Unreasonable Effectiveness of Recurrent Neural Networks" http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+* Andrej Karpathy. "The Unreasonable Effectiveness of Recurrent Neural Networks" http://karpathy.github.io/2015/05/21/rnn-effectiveness/ also the code from https://github.com/karpathy/char-rnn
 * Sepp Hochreiter; Jürgen Schmidhuber "Long short-term memory". Neural Computation. doi:10.1162/neco.1997.9.8.1735. 
 * Grid LSTM https://arxiv.org/pdf/1507.01526v1.pdf
  
