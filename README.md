@@ -57,6 +57,7 @@ Web application for artifical intelligence model training and text generation:
 * Recurrent Neural Network [RNN]:
   * Used for classifying, processing, and **making predictions based on time-series** with time, sequence, or anything with a temporal dimension.
   * The decision a recurrent net reached at **time step t - 1** affects the decision it will reach one moment later at **time step t**.
+  * Recommendation to run Yeezy Taught Me script on GPU, as RNNs are computationally intensive
   
 * Long Short Term Memory [LSTM]:
   * LSTM + Vanilla RNN solve the **vanishing gradient problem** since  units allow gradient flows to be unchanged
@@ -96,11 +97,13 @@ The input is a one-hot encoding of sequences of `sampleLen` characters. The char
 
 This process is repeated in order to **generate a character sequence** of a given length hence the "text generation" part of the project. The randomness (diversity) is controlled by a temperature parameter.
 
+At least 20 epochs (20 cases of the full training set) are required before the generated text starts sounding coherent.
 
 ---
 
 
 ## Text_Parameters
+If Yeezy Taught Me is run on new data, make sure corpus has at least ~100k characters. Ideally situation is ~1M characters. 
 
 * 'Name of the text dataset’ for input file
 * Path to the trained next-char prediction model saved on disk 
@@ -120,7 +123,8 @@ The web demo supports model training and text generation. To launch the demo, do
 ```sh
 yarn && yarn watch
 ```
-
+If you try this script on new data, make sure your corpus
+has at least ~100k characters. ~1M is better.
 
 ---
 
