@@ -46,7 +46,7 @@ Web application for Machine Learning Training next character predictions using L
 
 Web application for artifical intelligence model training and text generation:
 
-![Picture of program](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/YeezyTaughtMeWell.png)
+![Picture of program](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/images/YeezyTaughtMeWell.png)
 
 *Image. Screenshot of the web demo at https://lucylow.github.io/Yeezy-Taught-Me/*
 
@@ -63,7 +63,7 @@ Web application for artifical intelligence model training and text generation:
   * Neural network operates on different scales of time at once and information can be stored in, written to, or read from a cell.
   * Gates are analog with **element-wise multiplication by sigmoids**, which are all in the **range of 0-1**. Refer to diagram under " LSTM Model".
 
-![RNN and LSTM models](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/RNN%20vs%20LSTM.png)
+![RNN and LSTM models](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/images/RNN%20vs%20LSTM.png)
 
 *Image. Explanations of how the RNN and LSTM models work.*
 
@@ -80,7 +80,7 @@ LSTM Unit Map:
 * Forget gate 
 
 ![LSTM cells from https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/recurrent_neural_networks.html
-](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/LSTM%20cell%20and%20gates.png)
+](https://github.com/lucylow/Yeezy-Taught-Me/blob/master/images/LSTM%20cell%20and%20gates.png)
 
 *Image. LSTM cells where information can be stored in, written to, or read.*
 
