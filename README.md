@@ -1,4 +1,15 @@
 # Yeezy Taught Me Text Generation
+
+<div>
+  
+  [![Status](https://img.shields.io/badge/status-active-success.svg)]()
+  [![GitHub Issues](https://img.shields.io/github/issues/lucylow/Yeezy-Taught-Me.svg)](https://github.com/lucylow/Yeezy-Taught-Me/issues)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lucylow/Yeezy-Taught-Me.svg)](https://github.com/lucylow/Yeezy-Taught-Me/pulls)
+  [![License](https://img.shields.io/bower/l/bootstrap)]()
+
+</div>
+
+---
 Web application for Machine Learning Training next character predictions using Long Short Term Memory Model (LSTM) and Time Series Prediction. Train Long Short Term Memory (LSTM) model to **generate random text** based on patterns in a given text corpus. As Kanye West said:
 > Lack of visual empathy, equates the meaning of L-O-V-E.
 ---
