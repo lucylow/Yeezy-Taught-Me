@@ -150,6 +150,12 @@ has at least ~100k characters. ~1M is better.
 
 ---
 
+## Conclusion 
+
+Yeezy taught me well.
+
+---
+
 ## References 
 * Kera. LSTM Text Generation Example. https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py
 * Original LSTM paper Hochreiter & Schmidhuber (1997) http://www.bioinf.jku.at/publications/older/2604.pdf
