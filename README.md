@@ -14,6 +14,10 @@
 > Lack of visual empathy, equates the meaning of L-O-V-E.
 
 
+
+https://tfworld.devpost.com/
+
+
 The #TFWorld TF 2.0 Challenge is a skill contest where participants must build or migrate a functioning TensorFlow 2.0-powered solution, such as but not limited to a model, a mobile or web application, or an art installation using TensorFlow 2.0.  
 
 Creativity: How original and innovative is the product? Is there already an existing model or software application with similar functionality? Does this project integrate deep learning in an innovative, unexpected way?
