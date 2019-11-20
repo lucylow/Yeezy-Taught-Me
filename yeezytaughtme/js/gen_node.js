@@ -1,7 +1,3 @@
-/**
- * Use a trained next-character prediction model to generate some text. 
- */
-
 import * as fs from 'fs';
 import * as os from 'os';
 import * as path from 'path';
