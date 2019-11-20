@@ -23,6 +23,10 @@ Technical Complexity: Does the product integrate a large number of components? I
 Social Impact: What kind of social or business value could this product deliver? How does this software application use deep learning to make the world a little bit better, and to positively impact people’s lives?
 
 
+Traning in brower.
+Inference in browser.
+Save-load operations with IndexDB.
+
 
 ---
 
