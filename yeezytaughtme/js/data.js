@@ -1,7 +1,7 @@
 import * as https from 'https';
 import * as tf from '@tensorflow/tfjs';
 
-// TODO(cais): Support user-supplied text data.
+// TODO: Support user-supplied text data.
 export const TEXT_DATA_URLS = {
   'nietzsche': {
     url:
