@@ -12,6 +12,18 @@
 ---
 **Web application for machine learning training Next Character Predictions using Long Short Term Memory Model (LSTM) and Time Series Prediction. Train model to generate random text based on patterns in a given text corpus.** As Kanye West said:
 > Lack of visual empathy, equates the meaning of L-O-V-E.
+
+
+The #TFWorld TF 2.0 Challenge is a skill contest where participants must build or migrate a functioning TensorFlow 2.0-powered solution, such as but not limited to a model, a mobile or web application, or an art installation using TensorFlow 2.0.  
+
+Creativity: How original and innovative is the product? Is there already an existing model or software application with similar functionality? Does this project integrate deep learning in an innovative, unexpected way?
+
+Technical Complexity: Does the product integrate a large number of components? Is it widely useful, and scalable? Is the software application or model usable in a production setting?
+
+Social Impact: What kind of social or business value could this product deliver? How does this software application use deep learning to make the world a little bit better, and to positively impact people’s lives?
+
+
+
 ---
 
 
@@ -53,7 +65,7 @@ Web application for artifical intelligence model training and text generation:
 ---
 
 
-## Artifical_Neural_Network
+## Theory: Artifical_Neural_Network
 RNN and LSTM and derivatives use mainly sequential processing over time
 
 * Recurrent Neural Network [RNN]:
@@ -78,7 +90,7 @@ RNN and LSTM and derivatives use mainly sequential processing over time
 ---
 
 
-## LSTM_Model
+## Theory: LSTM_Model
 
 Written down as a set of equations, LSTMs look pretty intimidating.
 
@@ -99,7 +111,7 @@ LSTM Unit Map:
 ---
 
 
-## Text_Generation_Model
+## Theory: Text_Generation_Model
 
 The LSTM model operates at the **character level**. It takes a tensor of shape `[numExamples, sampleLen, charSetSize]` as the input. The input text data is from "./data" file.
 
@@ -109,23 +121,29 @@ This process is repeated in order to **generate a character sequence** of a give
 
 At least 20 epochs (20 cases of the full training set) are required before the generated text starts sounding coherent.
 
+
+----
+
+Technical: Implementation with Tensorflow
+
+At the core of the application is the LSTM model. Surprisingly, it is very simple to implement in Tensorflow:
 ---
 
-## Training LSTM
+## Technical: Training LSTM
 * difficult to train because they require memory-bandwidth-bound computation
 * LSTM require 4 linear layer (MLP layer) per cell to run at and for each sequence time-step
 *
 
 ---
 
-## Data for Text Generation
+## Technical: Input Data for Text Generation
 
 Potential text datasets to play with here https://cs.stanford.edu/people/karpathy/char-rnn/
 If Yeezy Taught Me is run on new data, make sure corpus has at least ~100k characters. Ideally situation is ~1M characters. 
 
 
 ---
-## Text_Parameters
+## Technical: Text_Parameters
 
 * 'Name of the text dataset’ for input file
 * Path to the trained next-char prediction model saved on disk 
@@ -137,7 +155,7 @@ If Yeezy Taught Me is run on new data, make sure corpus has at least ~100k chara
 
 ---
 
-
+The accuracy and loss are accumulated to monitor the progress of the training.
 ## Usage
 
 The web demo supports model training and text generation. To launch the demo, do:
@@ -160,6 +178,7 @@ Yeezy taught me well.
 * Kera. LSTM Text Generation Example. https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py
 * Original LSTM paper Hochreiter & Schmidhuber (1997) http://www.bioinf.jku.at/publications/older/2604.pdf
 * Mozilla's IndexDB. JavaScript-based object-oriented database documentation. https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+* Chapter 10 of Deep Learning Book by Goodfellow et. al. http://www.deeplearningbook.org/
 * Code example python LSTM https://github.com/wojciechz/learning_to_execute
 * Oxford's Machine Learning course. Practical6 LSTM for language modelling. https://github.com/oxford-cs-ml-2015/practical6
 * Comparing the LSTM vs the Transformer model for text generation https://openai.com/blog/language-unsupervised/
