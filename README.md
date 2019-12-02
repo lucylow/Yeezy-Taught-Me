@@ -13,25 +13,6 @@
 **Web application for machine learning training Next Character Predictions using Long Short Term Memory Model (LSTM) and Time Series Prediction. Train model to generate random text based on patterns in a given text corpus.** As Kanye West said:
 > Lack of visual empathy, equates the meaning of L-O-V-E.
 
-
-
-https://tfworld.devpost.com/
-
-
-The #TFWorld TF 2.0 Challenge is a skill contest where participants must build or migrate a functioning TensorFlow 2.0-powered solution, such as but not limited to a model, a mobile or web application, or an art installation using TensorFlow 2.0.  
-
-Creativity: How original and innovative is the product? Is there already an existing model or software application with similar functionality? Does this project integrate deep learning in an innovative, unexpected way?
-
-Technical Complexity: Does the product integrate a large number of components? Is it widely useful, and scalable? Is the software application or model usable in a production setting?
-
-Social Impact: What kind of social or business value could this product deliver? How does this software application use deep learning to make the world a little bit better, and to positively impact people’s lives?
-
-
-Traning in brower.
-Inference in browser.
-Save-load operations with IndexDB.
-
-
 ---
 
 
@@ -166,7 +147,9 @@ If Yeezy Taught Me is run on new data, make sure corpus has at least ~100k chara
 The accuracy and loss are accumulated to monitor the progress of the training.
 ## Usage
 
-The web demo supports model training and text generation. To launch the demo, do:
+The web demo supports model training and text generation. The machine model training in done in browser, inference in browser, and the save-load operations are done with an API call to the IndexDB database.
+
+To launch the demo, do:
 
 ```sh
 yarn && yarn watch
