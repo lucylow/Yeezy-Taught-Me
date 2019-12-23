@@ -177,6 +177,6 @@ Yeezy taught me well.
 * Sepp Hochreiter; Jürgen Schmidhuber "Long short-term memory". Neural Computation. doi:10.1162/neco.1997.9.8.1735. 
 * Grid LSTM https://arxiv.org/pdf/1507.01526v1.pdf
 * Generating Text with Recurrent Neural Networks. http://www.cs.utoronto.ca/~ilya/pubs/2011/LANG-RNN.pdf
-* textgenrnn Python 3 module on top of Keras/TensorFlow for creating char-rnnshttps://github.com/minimaxir/textgenrnn
+* textgenrnn Python 3 module on top of Keras/TensorFlow for creating char-rnns https://github.com/minimaxir/textgenrnn
  
 
