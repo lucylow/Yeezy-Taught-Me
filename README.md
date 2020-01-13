@@ -110,19 +110,6 @@ This process is repeated in order to **generate a character sequence** of a give
 
 At least 20 epochs (20 cases of the full training set) are required before the generated text starts sounding coherent.
 
-
-----
-
-Technical: Implementation with Tensorflow
-
-At the core of the application is the LSTM model. Surprisingly, it is very simple to implement in Tensorflow:
----
-
-## Technical: Training LSTM
-* difficult to train because they require memory-bandwidth-bound computation
-* LSTM require 4 linear layer (MLP layer) per cell to run at and for each sequence time-step
-*
-
 ---
 
 ## Technical: Input Data for Text Generation
@@ -144,7 +131,6 @@ If Yeezy Taught Me is run on new data, make sure corpus has at least ~100k chara
 
 ---
 
-The accuracy and loss are accumulated to monitor the progress of the training.
 ## Usage
 
 The web demo supports model training and text generation. The machine model training in done in browser, inference in browser, and the save-load operations are done with an API call to the IndexDB database.
