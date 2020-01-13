@@ -114,8 +114,9 @@ At least 20 epochs (20 cases of the full training set) are required before the g
 
 ## Technical: Input Data for Text Generation
 
-Potential text datasets to play with here https://cs.stanford.edu/people/karpathy/char-rnn/
-If Yeezy Taught Me is run on new data, make sure corpus has at least ~100k characters. Ideally situation is ~1M characters. 
+Potential text datasets to test model: https://cs.stanford.edu/people/karpathy/char-rnn/
+
+If Yeezy Taught Me is run on new data, make sure corpus has at least ~100k characters. Ideal situation is ~1M characters. 
 
 
 ---
